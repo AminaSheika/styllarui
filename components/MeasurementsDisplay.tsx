@@ -12,7 +12,7 @@ export default function MeasurementsDisplay({ measurements }: MeasurementsDispla
           {Object.entries(measurements).map(([key, value]) => (
             <div key={key} className="glass p-4 rounded-lg">
               <h3 className="text-lg font-semibold text-white">{key}</h3>
-              <p className="text-2xl font-bold text-white">{value.toFixed(2)} in</p>
+              <p className="text-2xl font-bold text-white">{value.toFixed(2)} cm</p>
             </div>
           ))}
         </div>
